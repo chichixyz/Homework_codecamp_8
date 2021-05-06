@@ -4,4 +4,4 @@
 
 Lab3 : Form 
 1. ทำแบบฟอร์มสั่ง pizza ดังรูป  (https://opentechschool.github.io/python-flask/core/forms.html)
-> [Lab3](/HTML/Lab%203/Lab3_Pizza)
+> [HTML File](/HTML/Lab%203/Lab3_Pizza.html)
