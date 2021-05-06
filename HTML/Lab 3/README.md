@@ -1,5 +1,5 @@
 # Homework_codecamp_8
-### Lab 3
+### HTML Lab 3
 ธนกฤต ชัยวานิชกุล
 
 Lab3 : Form 
