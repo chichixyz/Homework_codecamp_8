@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Flight</title>
+    <style>
+        table, th, td {
+          border-spacing:15px;
+          text-align: left;
+        }
+        </style>
+</head>
+
+<body>
+    <form method="post" target="_blank">
+        <table>
+            <tr>
+                <td colspan="2">Flying from<br> 
+                    <select name="Flying from" size="1" >
+                            <option value="Bangkok, Thailand">Bangkok, Thailand</option>
+                            <option value="Chiangrai, Thailand">Chiangrai, Thailand</option>
+                            <option value="Chiangmai Thailand">Chiangmai Thailand</option>
+                            <option value="Phuket, Thailand">Phuket, Thailand</option>
+                    </select>
+                </td>
+                <td colspan="2">To<br> 
+                    <select name="To" size="1" >
+                            <option value="Chiangrai, Thailand">Chiangrai, Thailand</option>
+                            <option value="Bangkok, Thailand">Bangkok, Thailand</option>
+                            <option value="Chiangmai Thailand">Chiangmai Thailand</option>
+                            <option value="Phuket, Thailand">Phuket, Thailand</option>
+                    </select>
+                </td>    
+            </tr>
+
+            <tr>
+                <td colspan="2">Departing <br>
+                    <input type="date" name="Departing">
+                </td>
+                <td colspan="2">Returning <br>
+                    <input type="date" name="Returning">
+                </td>
+            </tr>
+            <tr>
+                <td>Adult <br>
+                    <select name="No. Adult" size="1" >
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>Child <br>
+                    <select name="No. Child" size="1" >
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>Infant <br>
+                    <select name="No. Infant" size="1" >
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>Currency <br>
+                    <select name="Currency" size="1" >
+                        <option value="THB">THB</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="JPY">JPY</option>
+                    </select>
+                </td>
+            </tr>
+        </table>   
+        <input type="submit" value="SEARCH">
+    </form>
+</body>
+
+
+</html>
