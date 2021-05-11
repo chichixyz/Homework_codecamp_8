@@ -4,7 +4,7 @@
 
 [Lab 2](/HTML/Lab%202)
 
-[Lab 3](/HTML/Lab%203)
+[Lab 3](https://chichixyz.github.io/HTML/Lab%203)
 
 [Homework 1](https://chichixyz.github.io/HTML/Homework%201)
 
