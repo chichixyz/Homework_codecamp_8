@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testbook - เข้าสู่ระบบหรือสมัครใช้งาน</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Helvetica, Arial, sans-serif;
+            text-decoration: none;
+        }
+        body {
+            background-color: gainsboro;
+        }
+        main {
+            height: 92.5vh;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        main > * {
+            margin: 50px;
+            flex-shrink: 0;
+        }
+        .logo_slogan {
+        }
+
+        h1 {
+            color: blue;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        div.login {
+            height: 300px;
+            width: 425px;
+            border-radius: 4px;
+            background-color: white;
+            box-shadow: 3px 3px 10px gray;
+        }
+        form {
+            margin-top: 15px;    
+            display: inline-block;
+            text-align: center;
+        }
+        input {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit] {
+            padding: 8px 20px;
+            background-color: blue;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            color: black;
+
+        }
+
+        a.forget_pass {
+            color: blue;
+        }
+
+        a.forger_pass:hover {
+            text-decoration: underline;
+        }
+
+        .login > hr
+        {width:90%; 
+        margin: 15px auto;
+        border-width:0.25px;
+        color: gray;
+        }
+
+        a.new_account {
+            width: 50%;
+            margin: 8px auto;
+            padding: 8px 20px;
+            border-radius: 4px;
+            background: rgb(17, 194, 17);
+            font-size: 1.2em;
+            font-weight: bold;
+            color: white;
+        }
+
+        footer {
+            background-color: white;
+            padding: 15px;
+            font-size: 0.8em;
+        }
+
+        .bottom_text {
+            width: 70%;
+            margin: auto;
+        }
+
+        .bottom_text > hr
+        {margin: 15px 0;
+        border-width:0.25px;
+        color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="logo_slogan">
+            <h1>testbook</h1>
+            <p>Testbook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</p>
+        </div>
+            
+        <div class="login">
+            <form>
+                    <input type="text" name="email_phone" id="email_phone" placeholder="อีเมลหรือหมายเลขโทรศัพท์มือถือ">
+
+                    <input type="text" name="password" id="password" placeholder="รหัสผ่าน">
+
+                    <input type="submit" value = "เข้าสู่ระบบ">
+            </form>
+            <a class="forget_pass" href="https://th-th.facebook.com/recover">ลืมรหัสผ่านใช่หรือไม่</a>
+            <hr>
+            <a class="new_account" href="facebook.com/register">สร้างบัญชีใหม่</a>
+        </div>
+    </main>
+    <footer>
+        <div class="bottom_text">
+            ภาษาไทย English (UK) 日本語 中文(简体) Tiếng Việt Français (France) Deutsch Русский Español Português (Brasil) Italiano
+            <hr>
+            สมัคร เข้าสู่ระบบ Messenger Facebook Lite Watch ผู้คน เพจ หมวดหมู่เพจ สถานที่ เกม ตำแหน่งที่ตั้ง Marketplace Facebook Pay กลุ่มงาน OculusPortal Instagram ในพื้นที่ โครงการระดมทุน บริการ ศูนย์ข้อมูลการลงคะแนนเสียง เกี่ยวกับ สร้างโฆษณา สร้างเพจ ผู้พัฒนา ร่วมงานกับ Facebook ความเป็นส่วนตัว คุกกี้ ตัวเลือกโฆษณา เงื่อนไข ความช่วยเหลือ 
+            <br>
+            <br>
+            Testbook © 2021
+        </div>
+    </footer>
+</body>
+</html>
