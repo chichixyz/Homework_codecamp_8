@@ -1,5 +1,5 @@
 # Homework_codecamp_8
-### HTML
+### CSS
 ธนกฤต ชัยวานิชกุล
 
 [Lab CSS-icons](https://chichixyz.github.io/CSS/Lab_Icon/css-icons.html)
