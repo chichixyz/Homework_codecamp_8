@@ -1,4 +1,6 @@
-Exercise การดำเนินการเบื้องต้น
+# Homework_codecamp_8
+### JavaScript Exercise การดำเนินการเบื้องต้น
+ธนกฤต ชัยวานิชกุล
 
 1.ให้ระบุค่าของ a, b, c และ d หลังจากจบ statements ทั้งสามบรรทัด
 > a = 1, b = 1, c = 2, d = 1
