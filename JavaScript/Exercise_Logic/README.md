@@ -56,20 +56,24 @@ if (null || -1 && 0) alert( 'third' );
 - ถ้าผู้ใช้กรอก input เป็น string ว่าง หรือกด Esc ให้ alert ว่า “ยกเลิก”
 
 ```
+let username
+let password
+
 username = prompt("Username")
+
 if (username === "Admin") {
   password = prompt("Password")
     if (password === "codecamp#5") {
-      alert(“ยินดีต้อนรับ”)
-    } else if (password !== "codecamp#5") {
-      alert(“Wrong password”)
+      alert("ยินดีต้อนรับ")
+    } else if (password !== "codecamp#5" && password != null && password != "") {
+      alert("Wrong password")
     } else {
-      alert(“ยกเลิก”)
+      alert("ยกเลิก")
     }
-  } else if (username !== "Admin") {
-  alert(“ผมไม่รู้จักคุณ”)
+  } else if (username !== "Admin" && username != null && username != "") {
+   alert("ผมไม่รู้จักคุณ")
   } else {
-  alert(“ยกเลิก”)
+  alert("ยกเลิก")
   }
 
 ```
