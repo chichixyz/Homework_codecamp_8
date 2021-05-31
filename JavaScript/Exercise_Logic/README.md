@@ -36,8 +36,14 @@ if (age < 18 || age > 60){
 
 4. คำสั่ง alert ไหนที่จะถูกรันบ้าง
 if (-1 || 0) alert( 'first' );
+> run
+
 if (-1 && 0) alert( 'second' );
+> doesn't run
+
 if (null || -1 && 0) alert( 'third' );
+> doesn't run
+
 
 5. ให้เขียนระบบ login
 - ให้ใช้ prompt ในการถามใครเป็นคน login
