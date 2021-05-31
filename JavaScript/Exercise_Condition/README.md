@@ -14,9 +14,6 @@ message = (myName === "ธนกฤต")? "เก่งมาก" : "คุณ�
 alert(message)
 ```
 
-
-
-
 3.ใช้ prompt ในการรับคะแนนมาคำนวณเกรด
 - ถ้าคะแนน มากกว่าเท่ากับ 80    ได้ A
 - ถ้าคะแนน อยู่ระหว่าง 70 - 79     ได้ B
@@ -24,4 +21,26 @@ alert(message)
 - ถ้าคะแนน อยู่ระหว่าง 50 - 59     ได้ D
 - ถ้าคะแนน น้อยกว่า 50            ได้ F
 
+```
+let studentScore = Number(prompt("What is the student score?"))
+
+if (studentScore >= 80) {
+    alert("grade : A")
+  } else if (studentScore >= 70) {
+    alert("grade : B")
+  } else if (studentScore >= 60) {
+    alert("grade : C")
+  } else if (studentScore >= 50) {
+    alert("grade : D")
+  } else {
+    alert("grade : F")
+  }
+```
+
 4.เปลี่ยน if-else ข้างล่างในอยู่ในรูปของ Ternary Operators
+```
+let age = Number(prompt("how old are you?"))
+let price
+price = (age < 18)? 2000:3500;
+```
+
