@@ -1,4 +1,6 @@
-Exercise การเขียนเงื่อนไข
+# Homework_codecamp_8
+### JavaScript Exercise การเขียนเงื่อนไข
+ธนกฤต ชัยวานิชกุล
 
 1.Browser จะโชว์ข้อความ “Hello Codecamp #5” ไหม
 > โชว์ เพราะ "0" เป็นค่าใน string = True
