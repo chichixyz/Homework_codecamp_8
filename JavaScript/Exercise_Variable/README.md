@@ -14,7 +14,7 @@
 > hello Codecamp
 
 
-
+***
 
 2.1. กำหนดตัวแปรสำหรับเก็บชื่อ และกำหนดค่าเริ่มต้นเป็นชื่อของผู้เรียน
 > `let name = "Thanakrit Chaivanichagul"`
