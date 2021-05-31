@@ -26,4 +26,4 @@
 > `let address = "992/286 The ESSE 36"`
 
 2.4. กำหนดตัวแปรสำหรับเก็บประวัติของนักเรียนโดยใช้ตัวแปรทั้ง 3 ตัวด้านบนประกอบการเขียนประวัตินี้ด้วย"
- >```let studentInfo = `Student name = ${name}, Student age = ${age}, Student Address = ${address}````
+ >let studentInfo = ```Student name = ${name}, Student age = ${age}, Student Address = ${address}```
