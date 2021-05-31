@@ -1,4 +1,7 @@
-Exercise ตัวแปรและประเภทของข้อมูล
+# Homework_codecamp_8
+### ### HTML Exercise ตัวแปรและประเภทของข้อมูล
+ธนกฤต ชัยวานิชกุล
+
 1.ผลลัพธ์ทั้ง console.log ทั้งสามคืออะไร
 
 1.1. console.log(`hello ${1}`);
