@@ -1,4 +1,7 @@
-Exercise ตัวดำเนินการแบบตรรกะ
+# Homework_codecamp_8
+### JavaScript Exercise ตัวดำเนินการแบบตรรกะ
+ธนกฤต ชัยวานิชกุล
+
 1. คำสั่งต่อไปนี้จะแสดงค่าเป็นอะไร
 
 alert( null || 2 || undefined );
@@ -35,6 +38,7 @@ if (age < 18 || age > 60){
 ```
 
 4. คำสั่ง alert ไหนที่จะถูกรันบ้าง
+
 if (-1 || 0) alert( 'first' );
 > run
 
