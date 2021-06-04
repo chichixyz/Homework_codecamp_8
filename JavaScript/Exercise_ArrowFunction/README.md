@@ -1,3 +1,7 @@
+# Homework_codecamp_8
+### JavaScript Exercise Arrow Function
+ธนกฤต ชัยวานิชกุล
+
 แปลง function ข้างล่างให้อยู่ในรูป arrow function
 ```
 function ask(question, yes, no) {
