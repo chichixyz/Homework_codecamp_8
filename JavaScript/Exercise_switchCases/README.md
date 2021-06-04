@@ -1,3 +1,7 @@
+# Homework_codecamp_8
+### JavaScript Exercise Switch Cases
+ธนกฤต ชัยวานิชกุล
+
 1.1. แปลง Code ดังกล่าวเป็น if-else statement
 ```
 switch (browser) {
