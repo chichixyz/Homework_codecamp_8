@@ -50,7 +50,7 @@ let gameStart = true
 while (gameStart) {
   let answer =  Number(prompt('player 2 : please guess the number'));
   if (answer == theNumber) {
-    console.log('you win!');
+    alert('you win!');
     gameStart = false;
   } else if (answer < theNumber) {
     console.log('the number is greater than your answer');
