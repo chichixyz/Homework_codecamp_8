@@ -46,15 +46,15 @@ function  checkInputNumber() {
 
 let theNumber = checkInputNumber();
 
-let gameEnd = false
-while (!gameEnd) {
+let gameStart = true
+while (gameStart) {
   let answer =  Number(prompt('player 2 : please guess the number'));
   if (answer == theNumber) {
     console.log('you win!');
-    gameEnd = true;
+    gameStart = false;
   } else if (answer < theNumber) {
     console.log('the number is greater than your answer');
-  } else if (answer > theNumber) {
+  } else {
     console.log('the number is lesser than your answer');
   } 
 };
