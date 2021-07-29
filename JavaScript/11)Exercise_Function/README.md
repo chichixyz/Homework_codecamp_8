@@ -1,5 +1,5 @@
 # Homework_codecamp_8
-### JavaScript Exercise Switch Cases
+### JavaScript Exercise Function
 ธนกฤต ชัยวานิชกุล
 
 จงเขียน method draw(int n) ให้ print ออกมาในกรณีที่ n มีค่าต่างๆ ได้ผลลัพธ์ดังนี้
