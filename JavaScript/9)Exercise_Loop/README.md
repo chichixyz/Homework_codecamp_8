@@ -1,5 +1,5 @@
 # Homework_codecamp_8
-### JavaScript Exercise การเขียนเงื่อนไข
+### JavaScript Exercise Loop
 ธนกฤต ชัยวานิชกุล
 
 1.เลขที่ถูก alert เป็นลำดับสุดท้ายคือเลขอะไร
