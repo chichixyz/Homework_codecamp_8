@@ -1,4 +1,6 @@
-Exercise Object
+# Homework_codecamp_8
+### Advance JavaScript Exercise Object
+ธนกฤต ชัยวานิชกุล
 
 1.ให้ทำตามคำสั่งต่อไปนี้
 - สร้าง Object เปล่าขึ้นมา
