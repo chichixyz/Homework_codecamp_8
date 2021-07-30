@@ -47,7 +47,7 @@ function sum(obj) {
 ```
 function multiplyNumeric(obj, times) {
   for (let x in obj) {
-    if (typeof obj[x] !== Number) continue; 
+    if (typeof obj[x] !== 'number') continue; 
     obj[x] *= times
   }
 }
